@@ -15,6 +15,8 @@
 		BE9C25F71FB293260063F334 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C25F61FB293260063F334 /* main.m */; };
 		BE9C26011FB293270063F334 /* ZLSwipeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C26001FB293270063F334 /* ZLSwipeViewControllerTests.m */; };
 		BE9C260C1FB293270063F334 /* ZLSwipeViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C260B1FB293270063F334 /* ZLSwipeViewControllerUITests.m */; };
+		BE9C261B1FB295AD0063F334 /* LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C261A1FB295AD0063F334 /* LeftView.m */; };
+		F292C916D146D0CF5C160796 /* Pods_ZLSwipeViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA04E0A9B2A0F2DB52836529 /* Pods_ZLSwipeViewController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620289CEAFFA8F69B1D20375 /* Pods-ZLSwipeViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSwipeViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSwipeViewController/Pods-ZLSwipeViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		AC7CBB758B092792E17859C9 /* Pods-ZLSwipeViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSwipeViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSwipeViewController/Pods-ZLSwipeViewController.release.xcconfig"; sourceTree = "<group>"; };
 		BE9C25E41FB293260063F334 /* ZLSwipeViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLSwipeViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9C25E71FB293260063F334 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE9C25E81FB293260063F334 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		BE9C26071FB293270063F334 /* ZLSwipeViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLSwipeViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9C260B1FB293270063F334 /* ZLSwipeViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSwipeViewControllerUITests.m; sourceTree = "<group>"; };
 		BE9C260D1FB293270063F334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9C26191FB295AD0063F334 /* LeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftView.h; sourceTree = "<group>"; };
+		BE9C261A1FB295AD0063F334 /* LeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftView.m; sourceTree = "<group>"; };
+		DA04E0A9B2A0F2DB52836529 /* Pods_ZLSwipeViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLSwipeViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F292C916D146D0CF5C160796 /* Pods_ZLSwipeViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31A22227C8B529C6D973F77D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				620289CEAFFA8F69B1D20375 /* Pods-ZLSwipeViewController.debug.xcconfig */,
+				AC7CBB758B092792E17859C9 /* Pods-ZLSwipeViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BE9C25DB1FB293260063F334 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				BE9C25FF1FB293270063F334 /* ZLSwipeViewControllerTests */,
 				BE9C260A1FB293270063F334 /* ZLSwipeViewControllerUITests */,
 				BE9C25E51FB293260063F334 /* Products */,
+				31A22227C8B529C6D973F77D /* Pods */,
+				C535EC99D126C815B3EAF2CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +129,8 @@
 				BE9C25F21FB293260063F334 /* LaunchScreen.storyboard */,
 				BE9C25F51FB293260063F334 /* Info.plist */,
 				BE9C25F61FB293260063F334 /* main.m */,
+				BE9C26191FB295AD0063F334 /* LeftView.h */,
+				BE9C261A1FB295AD0063F334 /* LeftView.m */,
 			);
 			path = ZLSwipeViewController;
 			sourceTree = "<group>";
@@ -132,6 +153,14 @@
 			path = ZLSwipeViewControllerUITests;
 			sourceTree = "<group>";
 		};
+		C535EC99D126C815B3EAF2CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA04E0A9B2A0F2DB52836529 /* Pods_ZLSwipeViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE9C26101FB293270063F334 /* Build configuration list for PBXNativeTarget "ZLSwipeViewController" */;
 			buildPhases = (
+				986392EB3EC6F2C60CFB5D74 /* [CP] Check Pods Manifest.lock */,
 				BE9C25E01FB293260063F334 /* Sources */,
 				BE9C25E11FB293260063F334 /* Frameworks */,
 				BE9C25E21FB293260063F334 /* Resources */,
+				510D94A61E8C96C0772906F3 /* [CP] Embed Pods Frameworks */,
+				27D1E961333EB93E9559532B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +292,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27D1E961333EB93E9559532B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLSwipeViewController/Pods-ZLSwipeViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		510D94A61E8C96C0772906F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZLSwipeViewController/Pods-ZLSwipeViewController-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLSwipeViewController/Pods-ZLSwipeViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		986392EB3EC6F2C60CFB5D74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLSwipeViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE9C25E01FB293260063F334 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +354,7 @@
 				BE9C25EC1FB293260063F334 /* ViewController.m in Sources */,
 				BE9C25F71FB293260063F334 /* main.m in Sources */,
 				BE9C25E91FB293260063F334 /* AppDelegate.m in Sources */,
+				BE9C261B1FB295AD0063F334 /* LeftView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +515,7 @@
 		};
 		BE9C26111FB293270063F334 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620289CEAFFA8F69B1D20375 /* Pods-ZLSwipeViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +529,7 @@
 		};
 		BE9C26121FB293270063F334 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7CBB758B092792E17859C9 /* Pods-ZLSwipeViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
